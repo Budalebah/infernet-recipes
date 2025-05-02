@@ -38,12 +38,15 @@ Recipe inputs are specified by the following fields:
 
 Object properties within the `config` object are specified as paths joined by `.` (dots). For example, path
 
-```js
-chain.wallet.private_key
-```
-refers to
-```js
-config["chain"]["wallet"]["private_key"]
+```json 
+{
+  "chain": {
+    "wallet": {
+      "private_key": "YOUR_KEY"
+    }
+  }
+}
+
 ```
 
 **Partial substitutions** are also possible with the `#`. For example, path
