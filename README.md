@@ -1,7 +1,7 @@
 # Infernet Recipes
 
 This is a collection of [recipes](#what-is-a-recipe) that aims to simplify:
-  1. Configuring and running an [Infernet Node](https://docs.ritual.net/infernet/node/introduction).
+  1. Configuring and running an [Infernet Node](https://www.ritualfoundation.org/docs/using-ritual/ritual-for-node-runners).
   2. Configuring and running [services](https://infernet-services.docs.ritual.net/) on an Infernet Node.
 
 ## Node Recipes
